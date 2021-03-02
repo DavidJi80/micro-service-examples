@@ -1,0 +1,11 @@
+#server:
+#  port: 8060
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: open
+#          uri: https://www.baidu.com
+#          order: 0
+#          predicates:
+#            - Query=smile

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: benetech-nacos-consumer-example
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.0.237:8848
+        file-extension: yaml
+        group: nacos
+        namespace: 3e3a8ce1-7c6b-4728-8708-72b970b498ab
